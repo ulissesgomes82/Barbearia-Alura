@@ -32,3 +32,14 @@ nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
+
+footer{
+    text-align: center;
+    background-image: url(/img/bg.jpg);
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
