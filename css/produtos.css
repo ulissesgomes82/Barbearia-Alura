@@ -1,3 +1,8 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -42,4 +47,20 @@
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho, .produtos, .produto-descricao, .produto-preco{
+        width: 100%;
+    }
+    .produtos li{
+        display: block;
+    }
+  h1{
+    text-align: center;
+  }
+  
+   nav{
+    position: static;
+   }
 }

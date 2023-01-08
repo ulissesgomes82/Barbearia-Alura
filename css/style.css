@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBB;
     padding: 20px 0;
@@ -33,12 +37,14 @@ nav a:hover {
     text-decoration: underline;
 }
 
-footer{
+
+footer {
     text-align: center;
     background-image: url(/img/bg.jpg);
     padding: 40px 0;
 }
-.copyright{
+
+.copyright {
     color: #FFF;
     font-size: 13px;
     margin-top: 20px;
