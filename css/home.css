@@ -112,8 +112,44 @@
 
     nav {
         position: static;
+        text-align: center;
     }
-    .lista-beneficios, .imagem-beneficios{
+
+    .lista-beneficios,
+    .imagem-beneficios {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .cabecalho,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo {
+        width: auto;
+        border: 1px solid red;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .principal p {
+        width: auto;
+    }
+
+   .mapa-conteudo iframe{
+    width: 100%;
+   }
+
+    .lista-beneficios,
+    .imagem-beneficios {
+        width: 45%;
     }
 }
