@@ -130,22 +130,13 @@
         width: auto;
     }
 
-    h1 {
-        text-align: center;
-    }
-
-    nav {
-        position: static;
-        text-align: center;
-    }
-
     .principal p {
         width: auto;
     }
 
-   .mapa-conteudo iframe{
-    width: 100%;
-   }
+    .mapa-conteudo iframe {
+        width: 100%;
+    }
 
     .lista-beneficios,
     .imagem-beneficios {

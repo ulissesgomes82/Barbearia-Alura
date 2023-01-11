@@ -76,3 +76,14 @@ main {
         width: 45%;
     }
 }
+
+@media screen and (max-width: 950px) {
+
+    form,.input-padrao, table{
+        width: 80%;
+       text-align: center;
+    }
+    .input-padrao{
+        display: inline;
+    }
+}

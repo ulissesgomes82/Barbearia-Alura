@@ -50,17 +50,36 @@ main {
 }
 
 @media screen and (max-width: 480px) {
-    .cabecalho, .produtos, .produto-descricao, .produto-preco{
+
+    .cabecalho,
+    .produtos,
+    .produto-descricao,
+    .produto-preco {
         width: 100%;
     }
-    .produtos li{
+
+    .produtos li {
         display: block;
     }
-  h1{
-    text-align: center;
-  }
-  
-   nav{
-    position: static;
-   }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .produtos {
+        text-align: center;
+        width: 100%;
+    }
+
+    .produtos li {
+        margin: 10px auto;
+        width: 60%;
+    }
 }
